@@ -4,8 +4,6 @@ Contains separate solvers for different Operation Research problems. The list of
 
 * Tranportation Problem
 
-* Assignment Problem
-
 ## Tranportation Problem
 
 The transportation problem is a special type of linear programming problem where the objective is to minimise the cost of distributing a product from a number of sources or origins to a number of destinations. Because of its special structure the usual simplex method is not suitable for solving transportation problems.
@@ -17,7 +15,7 @@ From fourth line the cost matrix is given with each line for each supplier respe
 
 Example
 
-```txt
+```Text
 3 4
 250 350 400
 200 300 350 150
