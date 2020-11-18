@@ -17,7 +17,8 @@ From fourth line the cost matrix is given with each line for each supplier respe
 
 Example
 
-```3 4
+```txt
+3 4
 250 350 400
 200 300 350 150
 3 1 7 4
