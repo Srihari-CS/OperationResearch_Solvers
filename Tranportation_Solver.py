@@ -30,11 +30,13 @@ def get_input():
     read_lines = input_file.readlines()
     for line in read_lines:
         cost_matrix.append(string_to_intList(line))
-
-    print(cost_matrix)
+    
+    return cost_matrix
 
 def main():
-    get_input()
+    cost_matrix = get_input()
+    for i in cost_matrix:
+        print(i)
 
 if __name__ == '__main__':
     main()
