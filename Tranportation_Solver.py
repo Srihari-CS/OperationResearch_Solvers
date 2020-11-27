@@ -33,10 +33,10 @@ def get_input():
     
     return cost_matrix
 
-def main():
+def solve():
     cost_matrix = get_input()
     for i in cost_matrix:
         print(i)
 
 if __name__ == '__main__':
-    main()
+    solve()
